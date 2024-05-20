@@ -1,0 +1,10 @@
+.totalSpentContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+.totalSpentContainer h2{
+	color: #dc1616;
+ }
