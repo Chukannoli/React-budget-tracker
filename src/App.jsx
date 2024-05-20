@@ -1,4 +1,5 @@
 import "./App.css";
+import { AddExpenseForm } from "./components/AddExpenseForm/AddExpenseForm";
 import { Budget } from "./components/Budget/Budget";
 import { ExpenseTotal } from "./components/ExpenseTotal/ExpenseTotal";
 import { Remaining } from "./components/Remaining/Remaining";
@@ -9,7 +10,7 @@ function App() {
     <>
       <AppProvider>
         <div className="main-container">
-          <h1>Budget App</h1>
+          <p>Budget App</p>
           <div className="budget-container">
             <Budget />
           </div>
@@ -22,13 +23,15 @@ function App() {
               <ExpenseTotal />
             </div>
           </div>
+          <div className="formList">
+            <div className="expense-form">
+              <h3>Add Expense</h3>
+              <AddExpenseForm />
+            </div>
 
-          <div className="expense-form">
-            <h3>Add Expense</h3>
-          </div>
-
-          <div className="expense-list-container">
-            <h3>Expenses</h3>
+            <div className="expense-list-container">
+              <h3>Expenses</h3>
+            </div>
           </div>
         </div>
       </AppProvider>

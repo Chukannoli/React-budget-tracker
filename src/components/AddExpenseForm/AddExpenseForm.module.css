@@ -1,0 +1,26 @@
+.appForm{
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+
+}
+
+.appForm div {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+	font-size: 0.8rem;
+}
+
+.appForm input {
+	padding: 0.4rem 0.5rem;
+}
+
+.appForm select {
+	padding: 0.4rem 0.5rem;
+}
+
+.appForm button {
+	padding: 0.4rem 0.5rem;
+	font-weight: bold;
+}
