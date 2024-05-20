@@ -1,5 +1,6 @@
 import "./App.css";
 import { Budget } from "./components/Budget/Budget";
+import { Remaining } from "./components/Remaining/Remaining";
 import { AppProvider } from "./context/AppContext";
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
             </div>
             <div className="budget-stats">
               <div className="remaining-container">
-                
+                <Remaining/>
               </div>
               <div className="expense-total">
 

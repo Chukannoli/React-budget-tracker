@@ -1,0 +1,10 @@
+.remainingContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+.remainingContainer h2{
+	color: #649e0d;
+ }
