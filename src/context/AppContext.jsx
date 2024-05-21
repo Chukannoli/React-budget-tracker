@@ -35,7 +35,7 @@ const AppReducer = (state, action) => {
  
 
 const initialState = {
-	budget: 0,
+	budget: JSON.parse(localStorage.getItem("budget")) || 0,
 	expenses: JSON.parse(localStorage.getItem("expenses")) || [],
 	
 }
