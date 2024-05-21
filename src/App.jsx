@@ -1,6 +1,7 @@
 import "./App.css";
 import { AddExpenseForm } from "./components/AddExpenseForm/AddExpenseForm";
 import { Budget } from "./components/Budget/Budget";
+import { ExpenseList } from "./components/ExpenseList/ExpenseList";
 import { ExpenseTotal } from "./components/ExpenseTotal/ExpenseTotal";
 import { Remaining } from "./components/Remaining/Remaining";
 import { AppProvider } from "./context/AppContext";
@@ -31,6 +32,7 @@ function App() {
 
             <div className="expense-list-container">
               <h3>Expenses</h3>
+              <ExpenseList/>
             </div>
           </div>
         </div>
